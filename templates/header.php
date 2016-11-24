@@ -1,5 +1,5 @@
 <header class="z-max">
-  <nav class="db dt-l w-100 border-box ph3-l fixed bg-white bb b--light-gray shadow-1">
+  <nav class="db dt-l w-100 border-box ph3-l fixed bg-white bb b--light-gray shadow-1 z-max">
     <a class="f2 db dtc-l link dim w-25 w-25-l tc tl-l mb0-l" href="<?= esc_url(home_url(  '/')); ?>" title="Home">
     <i class="ai scorpio"></i>
       <?php bloginfo('name'); ?>

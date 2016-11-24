@@ -29,17 +29,18 @@ use Roots\Sage\Wrapper;
               <h2 class="tracked f2 pa3 near-white">Know the Zodiac, know yourself.</h1>
               
             </div>
+
           </div>
         </div>
     </a>    
     <div class="pa3 ph4-l" role="document">
       <div class="content mw9 cf mt5">
 
-        <main class="w-70-m w-70-ns pl0 pr5 fl">
+        <main class="w-100-m w-100-ns pl0 pr0 fl">
           <?php include Wrapper\template_path(); ?>
         </main><!-- /.main -->
         <?php if (Setup\display_sidebar()) : ?>
-          <aside class="w-30-m w-30-ns fr pa2"">
+          <aside class="w-100-m w-100-ns fr pa2"">
             <?php include Wrapper\sidebar_path(); ?>
           </aside><!-- /.sidebar -->
         <?php endif; ?>
